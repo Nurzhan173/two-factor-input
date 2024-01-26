@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Two factor input</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div id="app">
+  <form class="mfa-form">
+    <div class="mfa-row">
+      <input class="mfa-field" type="text" inputmode="numeric" pattern="[0-9]*" />
+      <input class="mfa-field" type="text" inputmode="numeric" pattern="[0-9]*" />
+      <input class="mfa-field" type="text" inputmode="numeric" pattern="[0-9]*" />
+      <input class="mfa-field" type="text" inputmode="numeric" pattern="[0-9]*" />
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
